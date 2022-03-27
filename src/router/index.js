@@ -9,6 +9,7 @@ import AccountsReceivable from '@/views/Accounts/AccountsReceivable.vue'
 import Dashboard from '@/views/Accounts/Dashboard.vue'
 import GeneralLedger from '@/views/Accounts/GeneralLedger.vue'
 import JournalEntry from '@/views/Accounts/JournalEntry.vue'
+import PaymentEntry from '@/views/Accounts/PaymentEntry.vue'
 import PurchaseInvoice from '@/views/Accounts/PurchaseInvoice.vue'
 import SalesInvoice from '@/views/Accounts/SalesInvoice.vue'
 import TrialBalance from '@/views/Accounts/TrialBalance.vue'
@@ -139,6 +140,7 @@ const routes = [
   { path: '/account-dashboard', name: 'Dashboard', component: Dashboard },
   { path: '/generalLedger', name: 'GeneralLedger', component: GeneralLedger },
   { path: '/journalEntry', name: 'JournalEntry', component: JournalEntry },
+  { path: '/paymentEntry', name: 'PaymentEntry', component: PaymentEntry },
   { path: '/purchaseInvoice', name: 'PurchaseInvoice', component: PurchaseInvoice },
   { path: '/SalesInvoice', name: 'SalesInvoice', component: SalesInvoice },
   { path: '/chart-of-accounts', name: 'ChartAccount', component: ChartAccount },

@@ -337,7 +337,7 @@
                 </router-link>
               </li>
               <li class="nav-item">
-                <router-link to="pages/charts/uplot.html" class="nav-link">
+                <router-link to="/paymentEntry" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Payment Entry</p>
                 </router-link>
@@ -349,7 +349,7 @@
                 </router-link>
               </li>
               <li class="nav-item">
-                <router-link to="pages/charts/uplot.html" class="nav-link">
+                <router-link to="/generalLedger" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>General Ledger</p>
                 </router-link>
